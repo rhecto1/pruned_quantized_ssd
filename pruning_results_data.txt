@@ -1,0 +1,13 @@
+(% Parameters pruned, mAP)	(% Parameters pruned, Compressed File Size in MB)	(% Parameters pruned, CPU FPS)	(% Parameters pruned, GPU FPS)
+
+Data for global L1Unstructured iterative pruning 
+(0, 77.49)		(0,  95.3)		(0,  2.60)		(0,  17.43)		
+(30,77.46)		(30, 74.7)		(30, 2.61)		(30, 15.48)
+(60,77.43)		(60, 48.7)		(60, 2.60)		(60, 14.21)
+(90,74.60)		(90, 18.8)		(90, 2.59)		(90, 7.31)
+
+Data for global L1Unstructured non-iterative pruning 
+(90,71.95)
+
+Best fit line for file size equation is
+F = 95 - 0.85P MB, where F is the compressed file size and P is the percent parameters that have been pruned
